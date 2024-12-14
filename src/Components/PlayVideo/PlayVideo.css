@@ -1,5 +1,5 @@
 .play-video{
-    flex-basis: 25%;
+    flex-basis: 69%;
 }
 .play-video video{
     width: 100%;
@@ -104,4 +104,13 @@
     align-items: center;
     margin: 8px 0;
     font-size: 14px;
+}
+.comment-section img{
+    width: 20px;
+    border-radius: 0;
+    margin-right: 5px;
+}
+.comment-section span{
+    margin-right: 20px;
+    color: #5a5a5a;
 }
