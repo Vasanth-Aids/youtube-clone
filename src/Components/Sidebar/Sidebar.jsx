@@ -15,35 +15,35 @@ import tom from '../../assets/tom.png'
 import megan from '../../assets/megan.png'
 import cameron from '../../assets/cameron.png'
 
-const Sidebar = ({sidebar}) => {
+const Sidebar = ({sidebar,category,satCategory}) => {
   return (
     <div className={`sidebar ${sidebar?"":"small-sidebar"}`}>
         <div className="sortcut_link">
-            <div className="side-link">
+            <div className="side-link" onClick={()=>setCategory(0)}>
                 <img src={home} alt="" /><p>Home</p>
             </div>
-            <div className="side-link">
+            <div className="side-link" onClick={()=>setCategory(0)}>
                 <img src={game_icon} alt="" /><p>Gaming</p>
             </div>
-            <div className="side-link">
+            <div className="side-link" onClick={()=>setCategory(0)}>
                 <img src={automobiles} alt="" /><p>Automobile</p>
             </div>
-            <div className="side-link">
+            <div className="side-link" onClick={()=>setCategory(0)}>
                 <img src={sports} alt="" /><p>sports</p>
             </div>
-            <div className="side-link">
+            <div className="side-link" onClick={()=>setCategory(0)}>
                 <img src={entertainment} alt="" /><p>Entertainment</p>
             </div>
-            <div className="side-link">
+            <div className="side-link" onClick={()=>setCategory(0)}>
                 <img src={tech} alt="" /><p>Technology</p>
             </div>
-            <div className="side-link">
+            <div className="side-link" onClick={()=>setCategory(0)}>
                 <img src={music} alt="" /><p>Music</p>
             </div>
-            <div className="side-link">
+            <div className="side-link" onClick={()=>setCategory(0)}>
                 <img src={blogs} alt="" /><p>Blogs</p>
             </div>
-            <div className="side-link">
+            <div className="side-link" onClick={()=>setCategory(0)}>
                 <img src={news} alt="" /><p>News</p>
             </div>
             <hr />
