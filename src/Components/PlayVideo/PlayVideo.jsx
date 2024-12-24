@@ -8,7 +8,7 @@ import save from "../../assets/save.png";
 import jack from "../../assets/jack.png";
 import user_profile from "../../assets/user_profile.jpg";
 
-const PlayVideo = ({videoId}) => {
+const PlayVideo = ({ videoId }) => {
   return (
     <div className="play-video">
       {/*<video src={Video1} controls autoPlay muted></video>*/}
